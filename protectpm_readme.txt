@@ -1,0 +1,13 @@
+Protect the Prime Minister (PTPM) is a game mode for GTA San Andreas Multiplayer (SA-MP) and Multi Theft Auto San Andreas (MTA SA). It is heavily based on "Protect the President" (PTP) of http://ptp.domorewithcel.com (which has since been taken down) but was reimplemented from scratch. Consequently there are many subtle differences, and as time has gone by PTP has become more obscure whereas PTPM has been maintained. The difference between PTP and PTPM is now substantial. 
+
+The game has several classes, divided into 5 teams. All classes in the same team spawn in the same "base". Within each team, the different classes have different weapons. Some classes have special "medic" powers, and usually spawn with less weaponry. Medics have a slightly paler colour so you can identify them on the radar. There is an unarmed "Prime Minister" (PM) class(yellow). Closely guarding the Prime Minister is the "bodyguard" team(green), consisting of all the bodyguard classes. Then there are the more heavily-armed "cops" (blue). The "good guys" are allies, they fight united against the "terrorists" (pink) team. There are also "psychos" (orange) who can kill whatever they like and generally mess around. 
+
+The aim of the game is for the PM to stay alive for the allotted time limit with the help of his bodyguards and the cops. Each map is slightly different in design requiring tactics to be varied depending on which map is being played. The aim of the terrorists is to hunt down and kill the PM before the end of the round. 
+
+The PM's health recharges 1% every 5 seconds. Medics' health also recharges, but faster. Medics can transfer some of their health to other players using /heal. Teams can chat privately by prepending '!' to their messages. 
+
+There is also a system of map voting. Users can vote for the next map while they are playing the current map. When the current map ends, the winning map is written to the file scriptfiles/mapvote.txt. If this file doesn't exist, the game chooses randomly, and it is always written at the end of a round. 
+
+Players can initiate vote kicks on each other, if enough votes are placed in a time period, the victim is banned. This is meant to be a last resort if there are no operators available. 
+
+We respect that the original PTP was the inspiration for much of this code, and thank the author for writing it and running a server that we could all enjoy. Hopefully we will now see other modes such as these, that promote strategy and teamwork above the simple tactics of conventional GTA modes.

@@ -1,0 +1,141 @@
+This is likely no longer a complete list, although the majority of commands are listed here.
+
+
+All <player> parameters take player ids or unambiguous fragments of player nicknames. 
+
+
+Game commands 
+
+/duty - This will display your classes duty on the screen, it is recommended that you read this when playing a class you have never used before. 
+
+/help - Shortly briefs the commands. 
+
+/intel - This will display the PM's name and rough position on the map. 
+
+/time - This displays the amount of time left before the round ends. 
+
+/plan <text> - If typed by the PM it enables him to outline a plan at any point during the game for the bodyguards and cops to follow. Terrorists and Psychopaths are not allowed to view the plan. If typed by a Bodyguard or Cop the PM's current plan will appear on the screen. 
+
+/reclass <desired class> - This will change your current class to the one you specify. The following parameters are accepted: pm|terrorist|cop|bodyguard|psycho|tmedic|bmedic|cmedic. Some may also take shortened versions of the class name such as 't' for 'terrorist'. 
+
+/swapclass <player> - This is for use by the PM only. The player with whom you swap with will become the PM and you will become whichever class the player was beforehand. 
+
+/heal <player> - Only for use by medic classes. You must be standing within 2m of another player for it to work. For every 2hp points you 'heal' another player, you will lose 1 of your own. The process is stopped by either the player reaching full health or you reaching 1 health. 
+
+/h - Use this instead of /heal with no parameters to heal the nearest player. (within 2m) 
+
+/camoff - Used to return to your position whilst watching a security camera. 
+
+/mapvote <map> - Use this to cast your vote for which map you want to play next, at the end of the round the votes are counted and the highest scoring map is played. The following parameters are accepted: ls_hydra|sf|desert|a51|lv_obj|air|chiliad|country|ls|lv|fac. 
+
+/login <username> <password> - Used to log in as an operator. 
+
+/logout <username> <password> - Used to log out of operator status. 
+
+/disablelogin <username> <password> - Use this to disable an account when it has been compromised to someone else. It will edit the password so nobody can access the account until you contact the server owner to have it reset. 
+
+
+
+Commands against cheaters 
+
+/callvote <player> <reason> - This can only be used when there are no operators online. It initiates a vote session against the victim and if a certain amount of votes is reached the victim is banned from the server. If the required number of votes is not met within a time limit the session is terminated. 
+
+/vote - This will add your vote to the current voting session. 
+
+/endvote - If you are the creator of the voting session, you may use this to close the session at any point. 
+
+/ops - Displays the names of all operators currently online and logged in. 
+
+/report <player> <suspected cheat> - This will send a report to all operators with the information you supply. Please try to be concise in your description of the issue. Also note that admins do not kick or ban on command, so your report may not be immediately put into action, or at all.
+
+
+
+Information commands 
+
+/players - Displays the number of players currently connected to the server. 
+
+/weps - Displays the names of the players who have picked up a minigun. 
+
+/motd - Displays the Message of the Day, which is the message which comes up when you join the server, and on every round restart. 
+
+/pinfo <player> - Displays the following information about the player: Name, Id, Class, Team, X,Y,Z coords, Distance from you, Amount of times they have teamkilled, Whether or not they have picked up a minigun, Current consecutive PM count, Total consecutive PM count. Also, if they are in a vehicle; Vehicle id, Model id. 
+
+/getweather - Returns the current weather id and type, and ingame time in hours and minutes.
+
+/tasks - Lists all the tasks available on the map, coloured to indicate which have been completed.
+
+
+
+Communication commands 
+
+/query <player> - Begins a conversation with the player in which you can talk privately by prepending '@' to your message. 
+
+/unquery - Terminates your current query link. 
+
+/me <text> - Enables you to send messages to the chat explaining your current actions. For example; if my name was Alex '/me jumps' would produce 'Alex jumps' in the chat box. 
+
+/pm <id> <text> - Sends a personal message to the id specified containing your message. 
+
+/ignore <player> - ignores a players pms and queries (note: reset at the end of each round)
+
+/unignore <player> - receive a players pms and queries again
+
+/ignorelist - list all the players whos pm and queries you are currently ignoring
+
+
+
+Administration commands 
+
+/freeze /thaw <player> Stop them moving / falling / taking damage 
+
+/tk <player> Quick way to give someone the teamkill punishment 
+
+/kick <player> Removed from server, can reconnect 
+
+/ban <player> Removed from server, can't reconnect 
+
+/watch /unwatch <player> - spectate a player
+
+/kph <player> Tells you how fast a player is moving in the game 
+
+/whovote Tells you who called the last votekick 
+
+/barvote /unbarvote <player> Stop a player from calling votekicks 
+
+/force <player> <command text> Causes the game to process the command text as any other given command but as if the specified player has issued it (very powerful) 
+
+/say <text> Put a line of text into the chat box 
+
+/tell <text> Make a message appear in large letters in the middle of the screen (game text) 
+
+/disarm <player> Remove weapons from a player 
+
+/mute /unmute <player> Block a player's chat messages 
+
+/pwarp <player> Teleports you to a player 
+
+/owarp <number> Change to a new objective (Las Venturas) and teleports you to that objective 
+
+/pwarptome <player> Teleports a player to you 
+
+/gethealth <player> Find out a player's health 
+
+/sethealth <player> <amount> Set player's health to a value you give 
+
+/vinfo <id> <text> Writes to the server log and messages you details about the given vehicle's spawn location appended with the given text 
+
+/vwarp <id> Teleports you to a vehicle 
+
+/wwarp <id> Teleports you to a weapon 
+
+/disp <player> <x> <y> <z> Teleport a player the specified amount in each axis 
+
+/balancedness Gives the current situation re: team balancing (high is unbalanced) 
+
+/svp <id> <x> <y> <z> Teleports the specified vehicle to the specified coordinates 
+
+/embark <id> <x> <y> <z> Puts you in the given car and teleports the car to the specified coordinates 
+
+/changeweather - Force a random weather change
+
+/restart Go to the next map
